@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Профиль"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_feed"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Лента"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_reader"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Читалка"
+        app:showAsAction="ifRoom" />
+
+</menu>
